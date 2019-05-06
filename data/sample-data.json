@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Knowledge__kav",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Knowledge__kavs.json"
+        ]
+    },
+    {
+        "sobject": "Knowledge__DataCategorySelection",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Knowledge__DataCategorySelections.json"
+        ]
+    }
+]

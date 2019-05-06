@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Coveo Fonts Google APIs</description>
+    <endpointUrl>https://fonts.googleapis.com</endpointUrl>
+    <isActive>true</isActive>    
+    <context>All</context>
+</CspTrustedSite>

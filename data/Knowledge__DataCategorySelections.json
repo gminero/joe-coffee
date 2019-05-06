@@ -1,0 +1,202 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef1"
+            },
+            "DataCategoryName": "cold_brew",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef5"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef2"
+            },
+            "DataCategoryName": "Varieties",
+            "DataCategoryGroupName": "Coffee_Production",
+            "ParentId": "@Knowledge__kavRef6"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef3"
+            },
+            "DataCategoryName": "Grinding",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef15"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef4"
+            },
+            "DataCategoryName": "cappuccino",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef31"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef5"
+            },
+            "DataCategoryName": "Brewing",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef40"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef6"
+            },
+            "DataCategoryName": "Varieties",
+            "DataCategoryGroupName": "Coffee_Production",
+            "ParentId": "@Knowledge__kavRef41"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef7"
+            },
+            "DataCategoryName": "Varieties",
+            "DataCategoryGroupName": "Coffee_Production",
+            "ParentId": "@Knowledge__kavRef43"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef8"
+            },
+            "DataCategoryName": "Grinding",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef49"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef9"
+            },
+            "DataCategoryName": "Brewing",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef49"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef10"
+            },
+            "DataCategoryName": "espresso",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef57"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef11"
+            },
+            "DataCategoryName": "latte",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef63"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef12"
+            },
+            "DataCategoryName": "Brewing",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef67"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef13"
+            },
+            "DataCategoryName": "espresso",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef70"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef14"
+            },
+            "DataCategoryName": "Varieties",
+            "DataCategoryGroupName": "Coffee_Production",
+            "ParentId": "@Knowledge__kavRef75"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef15"
+            },
+            "DataCategoryName": "Extra_Fine",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef82"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef16"
+            },
+            "DataCategoryName": "latte",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef95"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef17"
+            },
+            "DataCategoryName": "filter",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef96"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef18"
+            },
+            "DataCategoryName": "cold_brew",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef98"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef19"
+            },
+            "DataCategoryName": "filter",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef99"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef20"
+            },
+            "DataCategoryName": "cold_brew",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef105"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef21"
+            },
+            "DataCategoryName": "Varieties",
+            "DataCategoryGroupName": "Coffee_Production",
+            "ParentId": "@Knowledge__kavRef109"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__DataCategorySelection",
+                "referenceId": "Knowledge__DataCategorySelectionRef22"
+            },
+            "DataCategoryName": "Grinding",
+            "DataCategoryGroupName": "Coffee_Preparation",
+            "ParentId": "@Knowledge__kavRef110"
+        }
+    ]
+}

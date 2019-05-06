@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Coarse</label>
+                <name>Coarse</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extra Coarse</label>
+                <name>Extra_Coarse</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fine</label>
+                <name>Fine</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extra Fine</label>
+                <name>Extra_Fine</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medium</label>
+                <name>Medium</name>
+            </dataCategory>
+            <label>Grinding</label>
+            <name>Grinding</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>espresso</label>
+                <name>espresso</name>
+            </dataCategory>
+            <dataCategory>
+                <label>latte</label>
+                <name>latte</name>
+            </dataCategory>
+            <dataCategory>
+                <label>mochaccino</label>
+                <name>mochaccino</name>
+            </dataCategory>
+            <dataCategory>
+                <label>filter</label>
+                <name>filter</name>
+            </dataCategory>
+            <dataCategory>
+                <label>cold brew</label>
+                <name>cold_brew</name>
+            </dataCategory>
+            <dataCategory>
+                <label>cappuccino</label>
+                <name>cappuccino</name>
+            </dataCategory>
+            <label>Brewing</label>
+            <name>Brewing</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Storage</label>
+            <name>Storage</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Coffee Preparation</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

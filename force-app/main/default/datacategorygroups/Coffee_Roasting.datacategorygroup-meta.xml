@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Light Roast</label>
+                <name>Light_Roast</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medium Roast</label>
+                <name>Medium_Roast</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Dark Roast</label>
+                <name>Dark_Roast</name>
+            </dataCategory>
+            <label>Roast Types</label>
+            <name>Roast_Types</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Methods</label>
+            <name>Methods</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>Coffee Roasting Related Knowledge</description>
+    <label>Coffee Roasting</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

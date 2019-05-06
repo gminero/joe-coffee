@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Drying</label>
+                <name>Drying</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Roasting</label>
+                <name>Roasting</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Swiss Wash</label>
+                    <name>Swiss_Wash</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Triglyceride</label>
+                    <name>Triglyceride</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Supercritical CO2</label>
+                    <name>Supercritical_CO2</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Organic solvent</label>
+                    <name>Organic_solvent</name>
+                </dataCategory>
+                <label>Decaffeination</label>
+                <name>Decaffeination</name>
+            </dataCategory>
+            <label>Methods</label>
+            <name>Methods</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Caturra</label>
+                    <name>Caturra</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Ethiopia</label>
+                    <name>Ethiopia</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Columbia</label>
+                    <name>Columbia</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Gesha</label>
+                    <name>Gesha</name>
+                </dataCategory>
+                <label>Arabica</label>
+                <name>Arabica</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Kopi Luwak</label>
+                    <name>Kopi_Luwak</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Sulu coffee</label>
+                    <name>Sulu_coffee</name>
+                </dataCategory>
+                <label>Robusta</label>
+                <name>Robusta</name>
+            </dataCategory>
+            <label>Varieties</label>
+            <name>Varieties</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Coffee Production</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

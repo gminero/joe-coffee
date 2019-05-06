@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Brewing</label>
+            <name>Brewing</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Roasting</label>
+            <name>Roasting</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Serving</label>
+            <name>Serving</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Coffee Accessories</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

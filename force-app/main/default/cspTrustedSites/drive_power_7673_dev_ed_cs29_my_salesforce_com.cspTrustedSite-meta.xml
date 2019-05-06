@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <context>Communities</context>
+    <description>drive_power_7673_dev_ed_cs29_my_salesforce_com Trusted Site Added Via Community Builder</description>
+    <endpointUrl>https://drive-power-7673-dev-ed.cs29.my.salesforce.com</endpointUrl>
+    <isActive>true</isActive>
+</CspTrustedSite>
