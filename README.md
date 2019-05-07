@@ -64,10 +64,10 @@ sfdx force:source:push
 
 8. Ensure that the Sys admin Profile has read/write access to the cusotm fields (origin_url__c, long_summary__c, topic__c)
 
-9. Load sample Knowledge Articles:
+9. Load sample Data:
 
 ```
-sfdx force:data:tree:import --plan ./data/sample-data-plan.json
+sfdx force:data:tree:import --plan ./data/sample-data.json
 ```
 
 10. Open the scratch org:
