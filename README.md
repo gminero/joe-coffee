@@ -8,7 +8,7 @@ Joes Coffee is a sample application that is used by Coveo for onboarding partner
 ## Installation Instructions
 
 -   [Seting up your Environment for JoeCoffee using Salesforce DX](#setting-up-JoeCoffee-using-salesforce-dx): This is the recommended setup. Use this option if you are a developer.
--   [Seting up your Environment for JoeCoffee using a Developer Org](#setting-up-JoeCoffee-using-a-developer-org): This option allows anybody to go through the project.
+-   [Next Steps](#next-steps): These steps are for following up with the project tasks on the Partner Training Platform.
 
 ## Pre-requisites
 1. This project assumes you are familair with version control, Git and Github.
@@ -48,47 +48,30 @@ cd joe-cofee
 sfdx force:org:create -s -f config/project-scratch-def.json -a joescoffee
 ```
 
-5. Under the siteAdmin force-app/main/default/sites/Joes_Coffee.site-meta.xml, Assign your scratchorg's user to the **siteAdmin** XML node 
-
-```
-<siteAdmin>SratchOrgUserName</siteAdmin>
-```
-
-6. Push the app to your scratch org:
+5. Push the app to your scratch org:
 
 ```
 sfdx force:source:push
 ```
 
-7. In **Setup**, under **User**, activate the **Knowledge User** setting for the admin.
+6. In **Setup**, under **User**, activate the **Knowledge User** setting for the admin.
 
-8. Ensure that the Sys admin Profile has read/write access to the cusotm fields (origin_url__c, long_summary__c, topic__c)
+7. Ensure that the Sys admin Profile has read/write access to the cusotm fields (origin_url__c, long_summary__c, topic__c)
 
-9. Load sample Data:
+8. Load sample Data:
 
 ```
 sfdx force:data:tree:import --plan ./data/sample-data.json
 ```
 
-10. Open the scratch org:
+9. Open the scratch org:
 
 ```
 sfdx force:org:open
 ```
 
+10. You should now publish your community for the community URL to work.
 
-## Seting up your Environment for Joes Coffee using a Developer Org
+## Next Steps
 
-1. [Sign up](https://developer.salesforce.com/signup) for a Developer Edition (DE) org.
-
-2. Enable MyDomain in your DE org. Instructions to do this are [here](https://trailhead.salesforce.com/modules/identity_login/units/identity_login_my_domain).
-
-3. In **Setup**, under **User**, activate the **Knowledge User** setting..
-
-4. In **Setup**, under **Knowledge**, Enable Lightning Knowledge and create the fields as specified in the project guide.
-
-5. Import Knowledge data Using Salesforce's API after having created the necessary custom fields on the object:
-
--   Use the Knowledge__cs JSON file from the data folder. 
--   Using Salesforce's API, Upload the data [Lightning Platform API Basics](https://trailhead.salesforce.com/en/content/learn/modules/api_basics).
--   After having uploaded the content, the articles will still need to be published, this can be easily achieved using APEX (or the UI)
+1. Request an accecss to the [Partner Training Platform](https://coveopartnertraininguidev.herokuapp.com)
