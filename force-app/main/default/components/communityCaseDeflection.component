@@ -1,0 +1,42 @@
+<apex:component>
+<div id="search" class="CoveoSearchInterface coveo-case-deflection" data-enable-history="false" data-design="new">
+ <div class="CoveoCaseDeflection"></div>
+ <div class="CoveoAnalytics"></div>
+ <div class="coveo-tab-section">
+   <a class="CoveoTab" data-id="All" data-caption="All Content"></a>
+ </div>
+ <div class="coveo-main-section">
+   <div class="coveo-facet-column">
+   </div>
+   <div class="coveo-results-column">
+     <div class="CoveoErrorReport"></div>
+     <div class="CoveoResultList" data-layout="list">
+       <div class="coveo-show-if-no-results">No information related to your case.</div>
+       <script id="Default" class="result-template" type="text/html" data-layout="list"><div class="coveo-result-frame">
+ <div class="coveo-result-row" style="margin-bottom:7px;">
+   <div class="coveo-result-cell" style="vertical-align:top; width:32px; text-align:center">
+     <div class="CoveoIcon" data-small="true" data-with-label="false"></div>
+     <div class="CoveoSalesforceQuickview"></div>
+   </div>
+   <div class="coveo-result-cell" style="vertical-align:top; font-size:14px; padding-left:10px; text-align:left">
+     <a class="CoveoResultLink" data-open-in-sub-tab="true" data-always-open-in-new-window="true" data=""></a>
+   </div>
+ </div>
+ <div class="coveo-result-row">
+   <div class="coveo-result-cell">
+     <span class="CoveoExcerpt"></span>
+   </div>
+ </div>
+ <div class="coveo-result-row">
+   <div class="coveo-result-cell">
+     <div class="CoveoFieldValue" data-text-caption="Source:" data-field="@syssource"></div>
+   </div>
+ </div>
+</div>
+</script>
+     </div>
+   </div>
+ </div>
+ <div class="CoveoPager"></div>
+</div>
+</apex:component>
