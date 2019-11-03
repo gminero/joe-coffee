@@ -1,0 +1,47 @@
+<apex:component>
+      <div class="coveo-summary-section">
+        <span class="CoveoQuerySummary"></span>
+        <span class="CoveoQueryDuration"></span>
+      </div>
+      <div class="CoveoHiddenQuery"></div>
+      <div class="CoveoDidYouMean"></div>
+      <div class="CoveoErrorReport"></div>
+      <div class="CoveoResultList" data-auto-select-fields-to-include="true" data-layout="list">
+        <script id="Default" class="result-template" type="text/html" data-layout="list"><div class="coveo-result-frame">
+    <div class="CoveoResultActionsMenu">
+        <div class="CoveoAttachToCase" data-display-tooltip="true"></div>
+        <div class="CoveoSalesforceQuickview"></div>
+        <div class="CoveoResultActionsSendEmail"></div>
+        <div class="CoveoResultActionsPostToFeed"></div>
+        <div class="CoveoResultActionsSendLiveAgent"></div>
+    </div>
+    <div class="coveo-result-row" style="margin-bottom:7px;">
+        <div class="coveo-result-cell" style="vertical-align:top;width:32px;">
+            <span class="CoveoIcon" data-small="true" data-with-label="false"></span>
+        </div>
+        <div class="coveo-result-cell" style="vertical-align:middle;font-size:14px;padding-left:10px;">
+            <div class="coveo-result-row" style="font-size:15px;margin:0;"></div>
+            <a class="CoveoSalesforceResultLink" data-open-in-sub-tab="true"></a>
+            <div class="CoveoAttachToCase" data-readonly="true"></div>
+        </div>
+    </div>
+    <div class="coveo-result-row">
+        <div class="coveo-result-cell">
+            <span class="CoveoExcerpt"></span>
+        </div>
+    </div>
+    <div class="coveo-result-row">
+        <div class="coveo-result-row">
+            <div class="coveo-result-cell">
+                <div class="CoveoFieldValue" data-text-caption="Source:" data-field="@syssource" data-facet="null"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+      </div>
+      <div class="CoveoPager"></div>
+    </div>
+  </div>
+</div>
+</apex:component>
