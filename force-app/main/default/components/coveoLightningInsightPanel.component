@@ -1,4 +1,22 @@
 <apex:component>
+<div id="search" class="CoveoSearchInterface" data-design="new" data-results-per-page="5" data-excerpt-length="150" data-enable-history="false">
+  <div class="CoveoAnalytics"></div>
+  <div class="coveo-search-section">
+    <div class="CoveoSearchbox" data-enable-omnibox="true"></div>
+  </div>
+  <div class="coveo-tab-section">
+    <a class="CoveoTab" data-id="All" data-caption="All Content"></a>
+  </div>
+  <div class="coveo-facet-column">
+    <div class="CoveoFacet" data-title="Type" data-field="@objecttype" data-tab="All"></div>
+    <div class="CoveoFacet" data-title="FileType" data-field="@filetype" data-tab="All"></div>
+    <div class="CoveoFacet" data-title="Author" data-field="@author" data-tab="All"></div>
+    <div class="CoveoFacet" data-title="Year" data-field="@year" data-tab="All"></div>
+    <div class="CoveoFacet" data-title="Month" data-field="@month" data-tab="All"></div>
+  </div>
+  <div class="coveo-main-section">
+    <div class="coveo-results-column">
+      <div class="CoveoBreadcrumb"></div>
       <div class="coveo-summary-section">
         <span class="CoveoQuerySummary"></span>
         <span class="CoveoQueryDuration"></span>

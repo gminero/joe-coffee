@@ -1,20 +1,34 @@
 {
-  "orgName": "JoeCoffee",
-  "edition": "Developer",
-  "features": ["Communities", "Sites", "SiteDotCom", "Knowledge"],
-  "hasSampleData": "false",
-  "settings": {
-      "orgPreferenceSettings": {
-          "s1DesktopEnabled": true,
-          "selfSetPasswordInApi": true,
-          "s1EncryptedStoragePref2": false,
-          "networksEnabled": true,
-          "chatterEnabled": true                       
-      },
-      "knowledgeSettings":{
-          "enableKnowledge": true,
-          "enableLightningKnowledge" : true
-      }
-  }
+    "orgName": "JoeCoffee",
+    "edition": "Developer",
+    "features": [
+        "Communities",
+        "Sites",
+        "SiteDotCom",
+        "Knowledge"
+    ],
+    "hasSampleData": "true",
+    "settings": {
+        "knowledgeSettings": {
+            "enableKnowledge": true,
+            "enableLightningKnowledge": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            }
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "chatterSettings": {
+            "enableChatter": true
+        }
+    }
 }
-
