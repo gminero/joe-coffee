@@ -74,4 +74,4 @@ sfdx force:org:open
 
 ## Next Steps
 
-1. Request an access to the [Partner Training Platform](https://coveopartnertrainingui.herokuapp.com)
+1. Login to the [Partner Training Platform](https://101.coveo.com)
